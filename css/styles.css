@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono';
+  overflow: hidden;
+}
+
+svg {
+  float: left;
+}
+
+#text {
+  padding-right: 100px;
+}
+
+#contents {
+  background-color: #d0d0d0;
+  width: 200px;
+  border: 0px solid transparent;
+  border-radius: 4px;
+  padding: 5px;
+
+}
+
+#container {
+  height: 100vh;
+}
+
+#contents ul {
+  margin: -5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#images {
+  text-align: right;
+  font-size: smaller;
+  color: #c0c0c0;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+#main {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  overflow-y: scroll;
+}
+
+#aside {
+  height: 100vh;
+  background: #202327;
+  overflow: hidden;
+  color: white;
+}
+
+#aside h1 {
+  font-size: 250%;
+  padding: 20px;
+}
+
+#aside ul {
+  list-style-type: none;
+}
+
+#aside ul li {
+  margin-left: -40px;
+  padding: 10px;
+  font-size: 120%;
+}
+
+#selected {
+  background: #2E3238;
+}
+
+#aside ul li:hover {
+  background: #2E3238;
+}
+
+hr {
+  margin-left: -40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+  border: none;
+  height: 3px;
+}
+
+#aside a {
+  color: white;
+  text-decoration: none;
+}

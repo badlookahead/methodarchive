@@ -1,0 +1,9 @@
+h0 {
+  font-size: 500%;
+  font-weight: 700;
+}
+
+h0::after {
+  content: '\a';
+  white-space: pre;
+}
